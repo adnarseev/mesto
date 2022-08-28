@@ -1,0 +1,19 @@
+.elements__heart {
+  margin: 30px 20px 30px 0;
+  background-repeat: no-repeat;
+  border: 0;
+  background-color: #fff;
+  cursor: pointer;
+  background-image: url(../../../images/heart.svg);
+  width: 22px;
+}
+
+.elements__heart:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.elements__heart:active {
+  background-image: url(../../../images/heart_active.svg);
+  opacity: 1;
+}
