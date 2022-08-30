@@ -5,59 +5,61 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./pages/index.css">
-  <title>Mesto</title>
+  <title>Место</title>
 </head>
 
 <body class="page">
   <header class="header">
     <img class="header__logo" src="./images/logo.svg" alt="Лого">
   </header>
-  <section class="profile">
-    <img src="./images/avatar.png" alt="Аватар" class="profile__avatar">
-    <div class="profile__info">
-      <h1 class="profile__title" id="Name">Жак-Ив Кусто</h1>
-      <button type="button" class="profile__edit-button" aria-label="Изменить"></button>
-      <p class="profile__subtitle">Исследователь океана</p>
-    </div>
-    <button type="button" class="profile__add-button"></button>
-  </section>
-  <section class="element">
-    <div class="elements">
-      <img class="elements__image" src="./images/elements_karachaevsk.png" alt="Карачаевск">
-      <h2 class="elements__title">Карачаевск</h2>
-      <button class="elements__heart"></button>
-    </div>
-    <div class="elements">
-      <img class="elements__image" src="./images/elements_gora-elbrus.png" alt="Гора Эльбрус">
-      <h2 class="elements__title">Гора Эльбрус</h2>
-      <button class="elements__heart"></button>
-    </div>
-    <div class="elements">
-      <img class="elements__image" src="./images/elements_dombay.png" alt="Домбай">
-      <h2 class="elements__title">Домбай</h2>
-      <button class="elements__heart"></button>
-    </div>
-    <div class="elements">
-      <img class="elements__image" src="./images/elements_gora-elbrus.png" alt="Гора Эльбрус">
-      <h2 class="elements__title">Гора Эльбрус</h2>
-      <button class="elements__heart"></button>
-    </div>
-    <div class="elements">
-      <img class="elements__image" src="./images/elements_dombay.png" alt="Домбай">
-      <h2 class="elements__title">Домбай</h2>
-      <button class="elements__heart"></button>
-    </div>
-    <div class="elements">
-      <img class="elements__image" src="./images/elements_karachaevsk.png" alt="Карачаевск">
-      <h2 class="elements__title">Карачаевск</h2>
-      <button class="elements__heart"></button>
-    </div>
-  </section>
+  <main>
+    <section class="profile">
+      <img src="./images/avatar.png" alt="Аватар" class="profile__avatar">
+      <div class="profile__info">
+        <h1 class="profile__title" id="Name">Жак-Ив Кусто</h1>
+        <button type="button" class="profile__edit-button" aria-label="Изменить"></button>
+        <p class="profile__subtitle">Исследователь океана</p>
+      </div>
+      <button type="button" class="profile__add-button" aria-label="Добавить"></button>
+    </section>
+    <section class="elements">
+      <article class="element">
+        <img class="element__image" src="./images/elements_karachaevsk.png" alt="Карачаевск">
+        <h2 class="element__title">Карачаевск</h2>
+        <button class="element__heart" type="button" aria-label="Лайк"></button>
+      </article>
+      <article class="element">
+        <img class="element__image" src="./images/elements_gora-elbrus.png" alt="Гора Эльбрус">
+        <h2 class="element__title">Гора Эльбрус</h2>
+        <button class="element__heart" type="button" aria-label="Лайк"></button>
+      </article>
+      <article class="element">
+        <img class="element__image" src="./images/elements_dombay.png" alt="Домбай">
+        <h2 class="element__title">Домбай</h2>
+        <button class="element__heart" type="button" aria-label="Лайк"></button>
+      </article>
+      <article class="element">
+        <img class="element__image" src="./images/elements_gora-elbrus.png" alt="Гора Эльбрус">
+        <h2 class="element__title">Гора Эльбрус</h2>
+        <button class="element__heart" type="button" aria-label="Лайк"></button>
+      </article>
+      <article class="element">
+        <img class="element__image" src="./images/elements_dombay.png" alt="Домбай">
+        <h2 class="element__title">Домбай</h2>
+        <button class="element__heart" type="button" aria-label="Лайк"></button>
+      </article>
+      <article class="element">
+        <img class="element__image" src="./images/elements_karachaevsk.png" alt="Карачаевск">
+        <h2 class="element__title">Карачаевск</h2>
+        <button class="element__heart" type="button" aria-label="Лайк"></button>
+      </article>
+    </section>
+  </main>
   <footer class="footer">
     <p class="footer__copyright">© 2022 Mesto Russia</p>
   </footer>
 
-  <section class="popup">
+  <div class="popup">
     <div class="popup__content">
       <button aria-label="Закрыть" type="button" class="popup__close-button"></button>
       <h2 class="popup__title">Редактировать профиль</h2>
@@ -67,7 +69,7 @@
         <button aria-label="Сохранить" type="submit" class="popup__save-button">Сохранить</button>
       </form>
     </div>
-  </section>
+  </div>
   <script src="./scripts/index.js"></script>
 </body>
 

@@ -2,15 +2,16 @@
   display: grid;
   grid-template-columns: 120px 1fr 1fr;
   max-width: 880px;
-  align-items: flex-start;
+  align-items: center;
   margin: 0 auto;
-  gap: 0;
+  padding: 42px 0 0 0;
 }
 
 @media screen and (max-width: 879px){
   .profile {
-    grid-template-columns: 282px;
-    max-width: 282px;
-    justify-content: center;
+    padding-top: 42px;
+    display: flex;
+    flex-direction: column;
+    width: 282px;
   }
 }

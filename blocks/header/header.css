@@ -1,6 +1,6 @@
 .header {
   margin: 0 auto;
-  padding: 45px 0 41px 0;
+  padding: 45px 0 36px 0;
   width: 100%;
   max-width: 880px;
   border-bottom: 1px solid rgba(84, 84, 84, 0.7);
@@ -8,7 +8,8 @@
 
 @media screen and (max-width: 879px) {
   .header {
-    padding: 28px 0 31.6px 0;
+    padding: 28px 0 0 0;
     max-width: 581px;
+    min-height: 56px;
   }
 }
