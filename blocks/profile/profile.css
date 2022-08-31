@@ -7,11 +7,9 @@
   padding: 42px 0 0 0;
 }
 
-@media screen and (max-width: 879px){
+@media screen and (max-width: 879px) {
   .profile {
-    padding-top: 42px;
-    display: flex;
-    flex-direction: column;
-    width: 282px;
+    justify-content: center;
+    grid-template-columns: 282px;
   }
 }
