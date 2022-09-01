@@ -8,7 +8,7 @@ let profileSubtitle = document.querySelector('.profile__subtitle');
 let form = document.querySelector('.popup__form');
 
 let removePopup = function () {
-  popup.classList.remove('popup_opened', 'popup-place_opened');
+  popup.classList.remove('popup_opened')
 }
 
 function addPopup() {

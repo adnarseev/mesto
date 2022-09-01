@@ -5,10 +5,13 @@
   max-height: 120px;
   object-fit: cover;
   object-position: inherit;
+  width: 100%;
+  border-radius: 50%;
 }
 
 @media screen and (max-width: 879px) {
   .profile__avatar {
-    padding: 0 0 26px 82px;
+    margin-bottom: 26px;
+    justify-self: center;
   }
 }
